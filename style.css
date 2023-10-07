@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: aliceblue;
+    background: url(background.jpg) no-repeat;
+    background-size: cover;
+}
+h1{
+    color: black;
+}
+.container{
+    height: 100vh;
+    justify-content:center;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+  
+
+    
+}
+.container form{
+    width: 100%;
+    height: 100%;
+    
+}
+label{
+    margin-top: 15px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+input{
+    font-size: 20px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    height: 40px;
+}
+#convert{
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-right: 5px;
+    color: black;
+}
+#reset{
+    margin-top: 5px ;
+    margin-left: 5px;
+    color: black;
+}
+.hhh{
+    margin: 0 0 0 90px;
+}
